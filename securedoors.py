@@ -1,3 +1,5 @@
+''' 2019.9.17 '''
+
 n = int(input())
 memberlist = {}
 for i in range(0,n):
