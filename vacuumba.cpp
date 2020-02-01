@@ -1,3 +1,5 @@
+/* 2020.1.13 */
+
 #include <iostream>
 #include <stdio.h>      /* printf */
 #include <math.h>       /* cos */
