@@ -1,3 +1,5 @@
+/* 2020.1.13*/
+
 import sys
 
 diction = {}
