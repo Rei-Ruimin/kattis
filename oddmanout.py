@@ -1,3 +1,5 @@
+''' 2019.9.17 '''
+
 Ncase = int(input())
 for i in range(0,Ncase):
     G = int(input())
