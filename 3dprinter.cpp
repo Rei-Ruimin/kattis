@@ -1,3 +1,5 @@
+/* 2020.1.14 */
+
 #include <stdio.h>      /* printf */
 #include <math.h>       /* log2 */
 #include <iostream>
