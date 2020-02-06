@@ -1,0 +1,25 @@
+/* 2020.2.4 */
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    cin >> n;
+    int a1, b1, a2, b2;
+    cin >> a1 >> b1;
+    for(int i=0; i<n-1; i++) {
+        cin >> a2 >> b2;
+        if(b1 < a2 || a1 > b1 || b2 < a1) { 
+            cout << "edward is right";
+            return 0 ;
+        }
+        // compress interval
+        if(a2 > a1) { a1 = a2; }
+        if(b2 < b1) { b1 = b2; }
+    }
+    cout << "gunilla has a point";
+    return 0;
+}
